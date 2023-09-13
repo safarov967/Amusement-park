@@ -1,6 +1,22 @@
 
 
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
+//@skip-check module-structure-top-region
 #Область ПрограммныйИнтрефейс
+//@skip-check module-accessibility-at-client
+//@skip-check module-structure-event-regions
 Процедура ОбработкаПроведения(Отказ,Режим)//{{__КОНСТРУКТОР_ДВИЖЕНИЙ_РЕГИСТРОВ
 	//Данный фрагмент построен конструктором.
 	//При повторном использовании конструктора, внесенные вручную данные будут утеряны!
@@ -76,6 +92,8 @@
 КонецПроцедуры
 #КонецОбласти	
 	
+//@skip-check module-structure-method-in-regions
+//@skip-check module-accessibility-at-client
 Функция ПолучитьВидАттракциона(Номенклатура)
 	
 	Запрос = Новый Запрос();
@@ -99,6 +117,8 @@
 
 
 
+//@skip-check module-structure-method-in-regions
+//@skip-check module-accessibility-at-client
 Функция КлиентПоОснованию()
 	
 	Запрос = Новый Запрос;

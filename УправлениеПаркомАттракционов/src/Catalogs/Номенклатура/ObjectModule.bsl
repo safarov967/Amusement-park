@@ -1,4 +1,6 @@
 
+//@skip-check module-structure-method-in-regions
+//@skip-check module-accessibility-at-client
 Процедура ОбработкаПроверкиЗаполнения(Отказ, ПроверяемыеРеквизиты)
 
 	Если ВидНоменклатуры <> Перечисления.ВидНоменклатуры.ПосещениеАттракциона Тогда

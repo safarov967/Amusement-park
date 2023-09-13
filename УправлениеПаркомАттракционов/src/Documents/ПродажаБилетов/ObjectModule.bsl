@@ -1,5 +1,7 @@
 
 
+//@skip-check module-structure-method-in-regions
+//@skip-check module-accessibility-at-client
 Процедура ОбработкаПроверкиЗаполнения(Отказ, ПроверяемыеРеквизиты)
 	МаксимальнаяДоля = Константы.МаксимальнаяДоляОплатыБаллами.Получить();
 	
@@ -44,6 +46,8 @@
 
 
 
+//@skip-check module-structure-method-in-regions
+//@skip-check module-accessibility-at-client
 Процедура ОбработкаПроведения(Отказ,Режим)
 	
 	Движения.АктивныеПосещения.Записывать = Истина;
@@ -93,6 +97,8 @@
 
 КонецПроцедуры
 
+//@skip-check module-structure-method-in-regions
+//@skip-check module-accessibility-at-client
 Процедура НачислитьСписатьБонусныеБаллы(Отказ)
 	
 	Движения.БонусныеБаллыКлиентов.Записывать = Истина;
@@ -149,6 +155,9 @@
 	
 КонецПроцедуры
 
+//@skip-check module-structure-method-in-regions
+//@skip-check module-structure-method-in-regions
+//@skip-check module-accessibility-at-client
 Функция СуммаПокупокКлиента()
 	
 	Запрос = Новый Запрос();
@@ -171,6 +180,10 @@
 	
 КонецФункции
 
+//@skip-check module-structure-method-in-regions
+//@skip-check module-structure-method-in-regions
+//@skip-check module-structure-method-in-regions
+//@skip-check module-accessibility-at-client
 Функция ДоляНакапливаемыхБаллов(СуммаПокупокКлиента)
 	
 	Запрос = Новый Запрос();

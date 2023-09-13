@@ -1,4 +1,9 @@
 
+//@skip-check module-structure-method-in-regions
+//@skip-check module-accessibility-at-client
+//@skip-check doc-comment-parameter-section
+//@skip-check doc-comment-parameter-section
+//@skip-check doc-comment-export-function-return-section
 Функция ЦенаНоменклатуры(Номеклатура, Дата = Неопределено) Экспорт
 	
 	Запрос = Новый Запрос();

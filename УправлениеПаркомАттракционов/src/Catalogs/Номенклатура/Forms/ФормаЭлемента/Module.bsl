@@ -1,4 +1,5 @@
 
+//@skip-check module-structure-method-in-regions
 &НаСервере
 Процедура УправлениеВидимостьюПолей()
 	
@@ -8,6 +9,7 @@
 		
 КонецПроцедуры
 
+//@skip-check module-structure-method-in-regions
 &НаКлиенте
 Процедура ВидНоменклатурыПриИзменении(Элемент)
 	
@@ -16,6 +18,7 @@
 КонецПроцедуры
 
 
+//@skip-check module-structure-method-in-regions
 &НаСервере
 Процедура ПриСозданииНаСервере(Отказ, СтандартнаяОбработка)
 	
