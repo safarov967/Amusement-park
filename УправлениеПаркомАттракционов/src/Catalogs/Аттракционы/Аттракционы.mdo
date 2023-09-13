@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf1f14e9-3746-4caa-ba8f-f8d260a5e93d">
+  <producedTypes>
+    <objectType typeId="dca50118-dd04-4539-bd13-eb9b12d9f9cf" valueTypeId="c45414f6-84b7-4b48-8453-17f837cf7e3c"/>
+    <refType typeId="da04ce5a-0efd-4f15-ac2b-394a4fd82b2f" valueTypeId="d4eae8fe-6690-4e51-bb45-a46350148c29"/>
+    <selectionType typeId="9b494ea4-04cc-4285-a9c1-581dcb82aee4" valueTypeId="117e3ade-b60f-4e28-ae30-fc5e1e63eabd"/>
+    <listType typeId="15071a82-9b1b-4aa0-8354-1f69c4a12800" valueTypeId="d290bfe5-b656-44e1-afb3-1a522612d2a7"/>
+    <managerType typeId="221d8182-6a83-4ef4-8a1a-822bd8b3cc9f" valueTypeId="453f1890-c30e-45be-be1c-68c5b6b9ef5b"/>
+  </producedTypes>
+  <name>Аттракционы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аттракционы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аттракционы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Аттракционы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Аттракцион</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2f2c6902-4b8b-4d20-adcc-32f55478fd30">
+    <name>ВидАттракциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид аттракциона</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАттракционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
